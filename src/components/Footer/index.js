@@ -39,7 +39,7 @@ class Footer extends Component {
         });
         audio.addEventListener('ended', (e) => {
             console.log("Song ended!");
-            this.nextSong();
+            this.togglePlaylist();
         });
         window.addEventListener('mouseup', (e) => {
             window.removeEventListener('mousemove', this.handleDrag);
@@ -244,7 +244,7 @@ class Footer extends Component {
         }
     }
     render() {
-        let { totalTime, currentTime, percent, repeat, shuffle } = this.state;
+        let { totalTime, currentTime, percent } = this.state;
         return (
             <footer>
                 <div id="player">
@@ -280,11 +280,11 @@ class Footer extends Component {
                         <div id="totalTime">{(totalTime === undefined) ? currentTime : totalTime}</div>
                     </div>
                     <div id="menu">
-                        <button id="repeat" className={(!repeat) ? `off` : ``} onClick={(e) => this.setState({ repeat: !repeat })}><i className="fa fa-repeat"></i></button>
-                        <button id="prev" onClick={this.prevSong}><i className="fa fa-step-backward"></i></button>
+                        {/* <button id="repeat" className={(!repeat) ? `off` : ``} onClick={(e) => this.setState({ repeat: !repeat })}><i className="fa fa-repeat"></i></button>
+                        <button id="prev" onClick={this.prevSong}><i className="fa fa-step-backward"></i></button> */}
                         <button id="play" onClick={(e) => this.togglePlay()}><i className="fa fa-play"></i></button>
-                        <button id="next" onClick={this.nextSong}><i className="fa fa-step-forward"></i></button>
-                        <button id="shuffle" className={(!shuffle) ? `off` : ``} onClick={(e) => this.setState({ shuffle: !shuffle })}><i className="fa fa-random"></i></button>
+                        {/* <button id="next" onClick={this.nextSong}><i className="fa fa-step-forward"></i></button>
+                        <button id="shuffle" className={(!shuffle) ? `off` : ``} onClick={(e) => this.setState({ shuffle: !shuffle })}><i className="fa fa-random"></i></button> */}
                     </div>
                 </div>
             </footer>
