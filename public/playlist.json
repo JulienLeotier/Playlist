@@ -1,0 +1,54 @@
+{
+    "songs": [
+
+        {
+            "albumart": "/playlist/Méli elle est trop géniale.png",
+            "author": "Mélanie, Lucie, Nathan et Julien",
+            "song": "Méli est trop géniale",
+            "json": "/playlist/data/footloose.json",
+            "audio": "/playlist/music/Mélissaelleesttropgéniale.wav"
+        },
+        {
+            "albumart": "/playlist/Rendez-vous aujourd'hui.png",
+            "author": "Manon",
+            "song": "Rendez vous aujourd'hui",
+            "json": "/playlist/data/rendez-vous-aujourdhui.json",
+            "audio": "/playlist/music/rendez-vous-aujourdhui.mp3"
+        },
+        {
+            "albumart": "/playlist/ellejouaitàVillainous.png",
+            "author": "Lucie",
+            "song": "Elle jouait à Villainous",
+            "json": "/playlist/data/ellejouaitàVillainous.json",
+            "audio": "/playlist/music/ellejouaitàVillainous.wav"
+        },
+        {
+            "albumart": "/playlist/Méla est là pour Mélissa.png",
+            "author": "Mélanie",
+            "song": "Méla est là pour Mélissa",
+            "json": "/playlist/data/Méla est là pour Mélissa.json",
+            "audio": "/playlist/music/Méla est là pour Mélissa.wav"
+        },
+        {
+            "albumart": "/playlist/Comme un coup de foudre.png",
+            "author": "Julien",
+            "song": "Comme un coup de foudre",
+            "json": "/playlist/data/Comme un coup de foudre.json",
+            "audio": "/playlist/music/Comme un coup de foudre.wav"
+        },
+        {
+            "albumart": "/playlist/jaquet.png",
+            "author": "Guillaume",
+            "song": "J'm'appelle Méli",
+            "json": "/playlist/data/J'm'appelle Méli.json",
+            "audio": "/playlist/music/J'm'appelle Méli.wav"
+        },
+        {
+            "song": "Mais casse-toi",
+            "author": "Guillaume et Julien",
+            "albumart": "/playlist/Mais casse-toi.png",
+            "json": "/playlist/data/Mais casse-toi.json",
+            "audio": "/playlist/music/Mais casse-toi.wav"
+        }
+    ]
+}
