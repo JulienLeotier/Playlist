@@ -10,7 +10,7 @@
 
         { "line": "Elle n'est pas vraiment belle", "time": 13000 },
 
-        { "line": "(Parle-toi)", "time": 15000 },
+        { "line": "(Parle de toi)", "time": 15000 },
 
         { "line": "Elle est faite pour moi", "time": 18000 },
 
@@ -40,7 +40,7 @@
 
         { "line": "(Mais casse-toi) - Laissez-moi y croire", "time": 90000 },
         { "line": "Une vie juste toi et moi - (Une vie sans toi)", "time": 95000 },
-        { "line": "et demain - (Ça fais du bien)", "time": 101000 },
+        { "line": "et demain - (Ça fait du bien)", "time": 101000 },
         { "line": "tu seras là - (Casse-toi)", "time": 104000 }
 
 

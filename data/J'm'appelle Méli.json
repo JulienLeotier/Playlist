@@ -2,21 +2,21 @@
     "lyrics": [
         { "line": "Je me présente, je m'appelle Méli", "time": 8000 },
 
-        { "line": "je voudrais bien, avoir la belle vie", "time": 12000 },
+        { "line": "Je voudrais bien, avoir la belle vie", "time": 12000 },
 
-        { "line": "être aimé", "time": 16000 },
+        { "line": "Être aimée", "time": 16000 },
 
-        { "line": "être belle avoir une maison", "time": 19000 },
+        { "line": "Être belle avoir une maison", "time": 19000 },
 
-        { "line": "puis surtout être intelligente", "time": 23000 },
+        { "line": "Puis surtout être intelligente", "time": 23000 },
 
-        { "line": "mais tous ses rêves pas besoin ils sont déjà là", "time": 27000 },
+        { "line": "Mais tous ces rêves pas besoin ils sont déjà là", "time": 27000 },
 
         { "line": "Je suis chanteuse, je chante pour mes z'amis", "time": 37000 },
 
         { "line": "Tennis girl et danseuse aussi, vrai sportive", "time": 41000 },
 
-        { "line": "Tout ça n'est pas vraiment grand-chose", "time": 49000 },
+        { "line": "Tout ça n'est pas vraiment grand chose", "time": 49000 },
 
         { "line": "mais c'est ma plus belle des richesses", "time": 52000 },
 
@@ -24,15 +24,15 @@
 
         { "line": "toute ma vie ", "time": 57000 },
 
-        { "line": "au coter de julien", "time": 59000 },
+        { "line": "au côtés de Julien", "time": 59000 },
 
         { "line": "et partout dans les rues", "time": 65000 },
 
         { "line": "je me balade et j'aime ça, avec tous mes z'amis", "time": 66000 },
 
-        { "line": "Qui me le prennent par les bras", "time": 70000 },
+        { "line": "Qui me prennent par les bras", "time": 70000 },
 
-        { "line": "Qui me fasse rire et danser", "time": 72000 },
+        { "line": "Qui me fassent rire et danser", "time": 72000 },
 
         { "line": "jusqu'à n'en pouvoir plus", "time": 76000 }
     ]
