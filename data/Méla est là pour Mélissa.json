@@ -20,7 +20,7 @@
 
         { "line": "Que d'autres non pas", "time": 62000 },
 
-        { "line": "Qui met Ariel au trépa", "time": 65000 },
+        { "line": "Qui met Ariel au trépas", "time": 65000 },
 
         { "line": "N'oubliez pas les paroles de Mélissa", "time": 69000 },
 
@@ -36,8 +36,8 @@
 
         { "line": "Méli mon petit cookie", "time": 111000 },
 
-        { "line": "Avec son coeur coulant chocolat", "time": 115000 },
+        { "line": "Avec son coeur coulant en chocolat", "time": 115000 },
 
-        { "line": "Croque que moi ça ....", "time": 121000 }
+        { "line": "Croque-moi ça ....", "time": 121000 }
     ]
 }
