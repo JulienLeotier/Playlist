@@ -1,0 +1,49 @@
+{
+    "lyrics": [
+        { "line": "J'ai encore rêvé d'elle", "time": 1000 },
+
+        { "line": "(Je rêve aussi)", "time": 4000 },
+
+        { "line": "Je n'ai rien fait pour ça", "time": 6000 },
+
+        { "line": "(J'ai mal dormi)", "time": 10000 },
+
+        { "line": "Elle n'est pas vraiment belle", "time": 13000 },
+
+        { "line": "(Parle-toi)", "time": 15000 },
+
+        { "line": "Elle est faite pour moi", "time": 18000 },
+
+        { "line": "(Mais quel ego) - Tout en douceur", "time": 20000 },
+
+        { "line": "Juste pour mon coeur", "time": 26000 },
+
+        { "line": "Si je pouvais me réveiller à ses côtés", "time": 31000 },
+
+        { "line": "(Ouvre tes yeux, tu ne dors pas)", "time": 38000 },
+
+        { "line": "Si je savais où la trouver", "time": 42000 },
+
+        { "line": "(Mais j'ai pas envie de toi) - Donnez-moi l'espoir", "time": 47000 },
+
+        { "line": "(Mais casse-toi) -  Prêtez-moi un soir", "time": 51000 },
+
+        { "line": "(Dans tes rêves) - Une nuit, juste pour elle et moi", "time": 57000 },
+
+        { "line": "(C'est jamais arrivé) - Et demain ", "time": 62000 },
+
+        { "line": "Enfin je vais me réveiller à ses côtés - (Mais je veux pas)", "time": 68000 },
+
+        { "line": "C'est sûr je vais la retrouver - (Reste couché)", "time": 79000 },
+
+        { "line": "Donnez-moi un soir ", "time": 86000 },
+
+        { "line": "(Mais casse-toi) - Laissez-moi y croire", "time": 90000 },
+        { "line": "Une vie juste toi et moi - (Une vie sans toi)", "time": 95000 },
+        { "line": "et demain - (Ça fais du bien)", "time": 101000 },
+        { "line": "tu seras là - (Casse-toi)", "time": 104000 }
+
+
+
+    ]
+}
