@@ -10,9 +10,9 @@
 
         { "line": "En ce jour bien particulier", "time": 36000 },
 
-        { "line": "Malgré le fait d’être confiner", "time": 40000 },
+        { "line": "Malgré le fait d’être confiné", "time": 40000 },
 
-        { "line": "Je te souhaites un bon happy birthday", "time": 44000 },
+        { "line": "Je te souhaite un bon happy birthday", "time": 44000 },
 
         { "line": "Lors de votre mariage avec Julien", "time": 49000 },
 
@@ -45,13 +45,13 @@
         { "line": "Julien n’oublie pas que pour la satisfaire", "time": 103000 },
 
         { "line": "tu dois faire chaque soir à manger et à boire.", "time": 108000 },
-        { "line": "Et quand tu aura  fini, vous passerez la nuit dans votre lit", "time": 112000 },
+        { "line": "Et quand tu auras  fini, vous passerez la nuit dans votre lit", "time": 112000 },
 
         { "line": "Houhou, hou", "time": 118000 },
         { "line": "Mélissa oh Mélissa", "time": 121000 },
         { "line": "Un quart de siècle déjà", "time": 126000 },
 
-        { "line": "2 jolis petits chat.", "time": 130000 },
+        { "line": "2 jolis petits chats.", "time": 130000 },
         { "line": "Un mari super", "time": 132000 },
 
         { "line": "Plus que le bébé à faire.", "time": 134000 }
