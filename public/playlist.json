@@ -30,6 +30,13 @@
             "audio": "/playlist/music/Méla est là pour Mélissa.wav"
         },
         {
+            "albumart": "/playlist/oh melissa.png",
+            "author": "Richard",
+            "song": "Oh Mélissa",
+            "json": "/playlist/data/oh melissa.json",
+            "audio": "/playlist/music/oh melissa.m4a"
+        },
+        {
             "albumart": "/playlist/Comme un coup de foudre.png",
             "author": "Julien",
             "song": "Comme un coup de foudre",
@@ -42,6 +49,13 @@
             "song": "J'm'appelle Méli",
             "json": "/playlist/data/J'm'appelle Méli.json",
             "audio": "/playlist/music/J'm'appelle Méli.wav"
+        },
+        {
+            "albumart": "/playlist/melissa baïla.png",
+            "author": "Méline",
+            "song": "Melissa Baïla",
+            "json": "/playlist/data/Melissa Baîla.json",
+            "audio": "/playlist/music/Melissa Baïla.m4a"
         },
         {
             "song": "Mais casse-toi",
