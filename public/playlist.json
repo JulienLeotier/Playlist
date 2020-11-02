@@ -58,6 +58,13 @@
             "audio": "/playlist/music/Melissa Baïla.m4a"
         },
         {
+            "song": "Les attachants",
+            "author": "Loic et Diane",
+            "albumart": "/playlist/diane et loic.png",
+            "json": "/playlist/data/diane et loic.json",
+            "audio": "/playlist/music/diane et loic.mp3"
+        },
+        {
             "song": "Mais casse-toi",
             "author": "Guillaume et Julien",
             "albumart": "/playlist/Mais casse-toi.png",
