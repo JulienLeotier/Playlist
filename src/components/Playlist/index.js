@@ -64,9 +64,7 @@ class Playlist extends Component {
         return (
             <div id="playlist" className={`${showPlaylistClass}`}>
                 <div id="label">
-                    <h1>N'oubliez pas les paroles de Méli</h1>
-
-                    {/* <input id="search" type="text" placeholder="&#xF002; Search from all songs" autoComplete="off" onKeyUp={(e) => { e.stopPropagation(); this.searchSongs(e); }}></input> */}
+                    <input id="search" type="text" placeholder="&#xF002; Search from all songs" autoComplete="off" onKeyUp={(e) => { e.stopPropagation(); this.searchSongs(e); }}></input>
                 </div>
                 <div id="show-box">
                     <div id="show-list">
