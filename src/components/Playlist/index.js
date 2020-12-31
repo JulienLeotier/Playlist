@@ -10,8 +10,8 @@ class Playlist extends Component {
             showPlaylist: 'show'
         }
     }
-    playThisSong(index) {
-        let { setCurrentSongIndex, setSongData, currentSongIndex, setPlayState, play, playlistData, setShowPlaylist } = this.props;
+    playThisSong(index, array) {
+        let { setCurrentSongIndex, setSongData, currentSongIndex, setPlayState, play, setShowPlaylist } = this.props;
         if (index !== currentSongIndex && play === false) {
             setPlayState(true);
         }
@@ -19,7 +19,7 @@ class Playlist extends Component {
             setPlayState(!play);
         }
         setCurrentSongIndex(index)
-        setSongData(playlistData[index]);
+        setSongData(array[index]);
         setShowPlaylist(false)
     }
     searchSongs = (e) => {
@@ -43,9 +43,16 @@ class Playlist extends Component {
         let songs_list = [];
         if (playlistData !== undefined && playlistData.length > 0) {
             songs_list = [];
-            playlistData.forEach((element, index) => {
+            let array = [];
+            for(let i = 0; i < 2; i++){
+                let random = Math.floor(Math.random() * playlistData.length)
+                array.push(playlistData[random])
+                console.log(random)
+                playlistData.splice(random, 1)
+            }
+            array.forEach((element, index) => {
                 songs_list.push(
-                    <div key={index} data-index={index} className="flex vrtlCenter hrtlCenter song-list-row element options" onClick={(e) => this.playThisSong(index)}>
+                    <div key={index} data-index={index} className="flex vrtlCenter hrtlCenter song-list-row element options" onClick={(e) => this.playThisSong(index, array)}>
                         <div className="album-art">
                             <img alt={element.song} src={element.albumart} />
                         </div>
@@ -63,9 +70,6 @@ class Playlist extends Component {
         }
         return (
             <div id="playlist" className={`${showPlaylistClass}`}>
-                <div id="label">
-                    <input id="search" type="text" placeholder="&#xF002; Search from all songs" autoComplete="off" onKeyUp={(e) => { e.stopPropagation(); this.searchSongs(e); }}></input>
-                </div>
                 <div id="show-box">
                     <div id="show-list">
                         {(songs_list.length > 0) && (
